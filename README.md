@@ -71,25 +71,34 @@ A virtual environment setup (recommended).
 
 
 ### Installation
+
 ## Clone the Repository:
+
 bash:
 git clone https://github.com/your-username/speech-synthesis-campaign.git
+
 cd speech-synthesis-campaign
 
 
 ## Set Up a Virtual Environment:
+
 bash:
 python3 -m venv .venv
-source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+source .venv/bin/activate   
+
+# On Windows: .venv\Scripts\activate
 
 
 ## Install Dependencies:
+
 bash
 pip install -r requirements.txt
 
 
 ### Usage
+
 ## Run a TTS Script
+
 bash
 python tts-script_<quest_number>.py
 Replace <quest_number> with 1, 2, or 3 to match the desired quest.
@@ -106,6 +115,7 @@ Outputs will be saved in the output/ directory.
 
 # Run the Gradio App:
 For Quest 3, launch the interactive application:
+
 bash:
 python tts-app_3.py
 
@@ -116,30 +126,40 @@ Interactive Gradio Application (Quest 3)
 
 ## Input Options:
 Text entry for speech synthesis.
+
 Voice and language selection.
 
 
 ## Outputs:
 Audio playback and download.
+
 Visualized waveform analysis.
+
 Advanced Features:
+
 Real-time feedback.
+
 Data insights (e.g., word count, duration).
 
 
 
 ## Customizations
 Model Selection: Use models.py to select models.
+
 Speaker Configuration: Customize voices in speakers.py.
+
 Language Customization: Choose accents and pronunciations via languages.py.
 
 
 
 ### Project Roadmap
+
 ## Quest 1: Foundations of TTS
 Learn the basics of text analysis and vocoders.
+
 ## Quest 2: Advanced TTS Models
 Refine speaker and language configurations.
+
 ## Quest 3: Interactive GenAI TTS
 Build and deploy a full-fledged TTS application.
 
